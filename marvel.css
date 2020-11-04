@@ -1,0 +1,75 @@
+img {
+width: 150px
+}
+table, th, td{
+border: 1px solid black;
+border-collapse: collapse;
+}  
+#text {
+font-size: 15px;
+text-align: center;
+}
+#name {
+text-align: center;
+}
+body {
+background: rgb(207,40,201);
+background: linear-gradient(196deg, rgba(207,40,201,1) 37%, rgba(2,163,101,1) 81%); 
+}
+#color1 {
+color: yellow;
+}
+#color2 {
+color: purple;
+}
+#color3 {
+color: red;
+}
+#color4 {
+color: blue;
+}
+#color5 {
+color: orange;
+}
+#color6 {
+color:green;
+}
+#button {
+background-color: blue;
+color: white;
+padding: 15px 32px;
+text-align: center;
+display: inline-block;
+font-size: 16px;
+border-radius: 12px
+}
+.block1 {
+	background-color: blue;
+}
+.block2 {
+	background-color: yellow;
+}
+.block3 {
+	background-image: url("https://i.pinimg.com/originals/6f/0b/b4/6f0bb4cbfbfd2bc10bd0ee85bdec6843.gif");
+    background-color: #cccccc;
+}
+.block4 {
+	background-color: purple
+}
+.block5 {
+	background-color: red 
+}
+.block6 {
+	background-color: pink
+}
+img:hover {
+	width: 250px;
+	box-shadow: 15px 15px 15px black;
+}
+img {
+	box-shadow: 5px 5px 5px black;
+}
+#txt {
+	border: 5x solid red;
+    padding: 10px;
+}
